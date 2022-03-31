@@ -1,0 +1,24 @@
+p
+{
+    font-family: serif;
+    color: rgb(51, 9, 9);
+    word-spacing: 10px;
+    line-height: 50px;
+}
+
+a
+{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a:visited
+{
+    color: rgb(255, 94, 121);
+}
+
+a:hover
+{
+    text-decoration-color: greenyellow;
+    color: red;
+}
