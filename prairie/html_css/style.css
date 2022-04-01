@@ -3,7 +3,7 @@ p
     font-family: serif;
     color: rgb(51, 9, 9);
     word-spacing: 10px;
-    line-height: 50px;
+    line-height: 80px;
 }
 
 a
@@ -49,7 +49,7 @@ q
 
 .farmer
 {
-    border-left-color: blue;
+    border-left-color: rgb(0, 0, 0);
 }
 
 .villager
@@ -60,4 +60,62 @@ q
 header > h2
 {
     background-color: yellow;
+}
+
+.good,.bad
+{
+    text-transform: uppercase;
+}
+
+.bad
+{
+    color: red;
+}
+
+.good
+{
+    color: green;
+}
+
+tr:nth-child(even) 
+{
+    background: #CCC
+}
+
+tr:nth-child(odd) 
+{
+    background: #FFF
+}
+
+li
+{
+    font-size: 50px;
+}
+
+
+
+.li1::before
+{
+    content:url(bien.png);
+    position: relative;
+    left:-3px;
+    top:10px;
+
+}
+
+
+.li2::before
+{
+    content:url(mal.png);
+    position: relative;
+    left:-3px;
+    top:10px;
+}
+
+.li3::before
+{
+    content:url(chat.png);
+    position: relative;
+    left:-3px;
+    top:10px;
 }
