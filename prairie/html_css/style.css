@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 p
 {
     font-family: serif;
@@ -33,6 +35,7 @@ body
     background-image: url("https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc4NjAyMTc0NTA2MzEz/hith-chinese-leaders-qin-shi-huang-2.jpg"), linear-gradient(90deg, rgba(13,217,233,1) 0%, rgba(223,23,23,1) 5%, rgba(32,204,212,0.2763306005996149) 10%, rgba(47,193,195,1) 18%, rgba(245,0,167,1) 23%, rgba(98,252,4,1) 29%, rgba(2,237,255,1) 34%, rgba(0,0,0,0.2735294801514355) 39%, rgba(255,255,255,1) 45%, rgba(255,0,209,1) 50%, rgba(199,31,31,1) 56%, rgba(251,255,0,0.7273109927564776) 64%, rgba(40,221,65,1) 71%, rgba(154,225,255,0.8225490879945728) 78%, rgba(255,0,191,1) 86%, rgba(91,219,12,1) 92%, rgba(185,160,240,1) 97%, rgba(89,18,18,0.94859950816264) 100%);
     background-repeat: no-repeat;
     background-position: bottom right;
+    font-family: "Open Sans", sans-serif;
     /* background-size: cover; */
     /* je commente le background size pour ne pas gacher mon beau gradient */
 }
@@ -119,3 +122,21 @@ li
     left:-3px;
     top:10px;
 }
+
+body p:nth-child(1)
+{
+    font-weight: bold;
+}
+
+div
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul:before
+{
+    content:attr(aria-label);
+    font-size:100%;
+}
+
