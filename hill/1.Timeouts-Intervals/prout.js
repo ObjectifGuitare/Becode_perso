@@ -3,7 +3,12 @@ let interval;
 function prouter()
 {
     let string = "prout";
-    console.log(string.charAt(i));
+    if(!document.querySelector("h1"))
+    {
+        let title = document.createElement("h1");
+        document.body.appendChild(title);
+    }
+    document.querySelector("h1").innerHTML += string.charAt(i);
     i++
     if(i >= string.length)
     {
@@ -13,5 +18,4 @@ function prouter()
 
 interval = setInterval(prouter, 1000);
 let VASYPROUT = prouter;
-
 
