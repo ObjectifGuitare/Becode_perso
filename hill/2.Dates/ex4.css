@@ -1,0 +1,49 @@
+.container
+{
+    /* top: 40vh; */
+    margin: auto;
+    display: flex;
+    /* width: 20vw;
+    height: 20vh; */
+    margin: 50px;
+    border: 5px rgba(255, 225, 0, 0.181) solid;
+}
+
+.hour
+{
+    /* visibility: hidden; */
+    border: 5px green solid;
+}
+
+.calendar
+{
+    border-radius: 50px;
+    border: 10px rgba(128, 128, 128, 0.377) solid;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whitePart
+{
+    height: 10px;
+    width: 10px;
+}
+
+.extreme
+{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    color: white;
+    
+}
+
+.clock
+{
+    border: 10px rgb(121, 80, 204) solid;
+    width: 500px;
+}
